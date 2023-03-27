@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oquraishy/to-do-list.git"
+    "url": "git+https://github.com/dvkpatel11/to-do-list.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oquraishy/to-do-list/issues"
+    "url": "https://github.com/dvkpatel11/to-do-list/issues"
   },
-  "homepage": "https://oquraishy.github.com/to-do-list",
+  "homepage": "https://dvkpatel11.github.com/to-do-list",
   "description": "",
   "dependencies": {
     "body-parser": "^1.20.2",
