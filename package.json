@@ -4,23 +4,32 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint:css": "stylelint \"src/**/*.{css,scss}\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oquraishy/Portofolio-9.git"
+    "url": "git+https://github.com/oquraishy/to-do-list.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oquraishy/Portofolio-9/issues"
+    "url": "https://github.com/oquraishy/to-do-list/issues"
   },
-  "homepage": "https://github.com/oquraishy/Portofolio-9#readme",
+  "homepage": "https://oquraishy.github.com/to-do-list",
   "description": "",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "lodash": "^4.17.21",
     "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "stylelint": "^15.3.0",
+    "stylelint-config-recommended": "^11.0.0"
   }
 }
